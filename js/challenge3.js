@@ -52,5 +52,11 @@ document.addEventListener("DOMContentLoaded", function () {
         thumbnail.addEventListener("mouseleave", function () {
             thumbnail.style.visibility = "visible";
         });
+
+        thumbnail.addEventListener("focusput", function () {
+            thumbnail.style.visibility = "visible";
+        });
+
+        
     });
 });
